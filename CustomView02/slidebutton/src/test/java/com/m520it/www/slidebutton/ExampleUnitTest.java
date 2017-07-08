@@ -1,4 +1,4 @@
-package com.m520it.www.slidebutton;
+package com.bing.lan.slidebutton;
 
 import org.junit.Test;
 

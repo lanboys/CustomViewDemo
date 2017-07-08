@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.m520it.www.viewpagerdemo.MainActivity">
+    tools:context="com.bing.lan.viewpagerdemo.MainActivity">
 
     <!--<TextView
         android:layout_width="wrap_content"

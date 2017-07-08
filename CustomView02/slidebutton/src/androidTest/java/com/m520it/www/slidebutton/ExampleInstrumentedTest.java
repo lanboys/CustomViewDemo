@@ -1,4 +1,4 @@
-package com.m520it.www.slidebutton;
+package com.bing.lan.slidebutton;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

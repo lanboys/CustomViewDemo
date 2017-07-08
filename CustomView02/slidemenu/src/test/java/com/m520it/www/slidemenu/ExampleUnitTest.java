@@ -1,4 +1,4 @@
-package com.m520it.www.slidemenu;
+package com.bing.lan.slidemenu;
 
 import org.junit.Test;
 

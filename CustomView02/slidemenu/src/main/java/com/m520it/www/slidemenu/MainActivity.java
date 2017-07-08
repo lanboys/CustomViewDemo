@@ -1,4 +1,4 @@
-package com.m520it.www.slidemenu;
+package com.bing.lan.slidemenu;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

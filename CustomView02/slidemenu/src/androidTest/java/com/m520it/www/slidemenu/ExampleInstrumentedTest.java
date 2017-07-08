@@ -1,4 +1,4 @@
-package com.m520it.www.slidemenu;
+package com.bing.lan.slidemenu;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

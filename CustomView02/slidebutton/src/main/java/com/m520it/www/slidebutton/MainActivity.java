@@ -1,4 +1,4 @@
-package com.m520it.www.slidebutton;
+package com.bing.lan.slidebutton;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

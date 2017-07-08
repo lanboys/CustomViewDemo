@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.m520it.www.customview01.MainActivity">
+    tools:context="com.bing.lan.customview01.MainActivity">
 
     <!--<TextView
         android:layout_width="wrap_content"
@@ -18,7 +18,7 @@
     <!--<com.m520it.www.customview01.PaintView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>-->
-    <com.m520it.www.customview01.CanvasView
+    <com.bing.lan.customview01.CanvasView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <!--<com.m520it.www.customview01.PathView

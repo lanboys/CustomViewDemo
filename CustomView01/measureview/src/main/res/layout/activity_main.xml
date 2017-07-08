@@ -5,9 +5,9 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.m520it.www.measureview.MainActivity">
+    tools:context="com.bing.lan.measureview.MainActivity">
 
-    <com.m520it.www.measureview.MyView
+    <com.bing.lan.measureview.MyView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </HorizontalScrollView>

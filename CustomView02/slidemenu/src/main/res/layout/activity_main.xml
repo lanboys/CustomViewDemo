@@ -5,11 +5,11 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.m520it.www.slidemenu.MainActivity">
+    tools:context="com.bing.lan.slidemenu.MainActivity">
 
 
 
-    <com.m520it.www.slidemenu.SlideMenuLayout
+    <com.bing.lan.slidemenu.SlideMenuLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
@@ -23,5 +23,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-    </com.m520it.www.slidemenu.SlideMenuLayout>
+    </com.bing.lan.slidemenu.SlideMenuLayout>
 </RelativeLayout>

@@ -10,9 +10,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.m520it.www.textflipper.MainActivity">
+    tools:context="com.bing.lan.textflipper.MainActivity">
 
-    <com.m520it.www.textflipper.TextViewFlipper
+    <com.bing.lan.textflipper.TextViewFlipper
     android:id="@+id/viewFlipper"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

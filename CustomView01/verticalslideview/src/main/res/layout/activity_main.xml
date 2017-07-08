@@ -9,9 +9,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.m520it.www.verticalslideview.MainActivity">
+    tools:context="com.bing.lan.verticalslideview.MainActivity">
 
-    <com.m520it.www.verticalslideview.VerticalSlideView
+    <com.bing.lan.verticalslideview.VerticalSlideView
         android:background="#0044ff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
