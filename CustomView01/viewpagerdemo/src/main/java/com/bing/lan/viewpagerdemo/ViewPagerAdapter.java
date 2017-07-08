@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by xmg on 2016/12/29.
+ * Created by 520 on 2016/12/29.
  */
 
 public class ViewPagerAdapter extends PagerAdapter {

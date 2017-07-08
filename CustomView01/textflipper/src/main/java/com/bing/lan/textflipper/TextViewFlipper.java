@@ -10,7 +10,7 @@ import android.widget.ViewFlipper;
 import java.util.ArrayList;
 
 /**
- * Created by xmg on 2016/12/29.
+ * Created by 520 on 2016/12/29.
  */
 
 public class TextViewFlipper extends ViewFlipper {
@@ -29,7 +29,7 @@ public class TextViewFlipper extends ViewFlipper {
 //        for (int i = 0; i < attributeCount; i++) {
 //            String attributeValue = attrs.getAttributeValue(i);
 //            String attributeName = attrs.getAttributeName(i);
-//            Log.d("xmg", "TextViewFlipper: attributeName " +attributeName
+//            Log.d("520", "TextViewFlipper: attributeName " +attributeName
 //            +" attributeValue "+attributeValue);
 //        }
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.TextViewFlipper);

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 /**
- * Created by xmg on 2016/12/29.
+ * Created by 520 on 2016/12/29.
  */
 
 public class VerticalSlideView extends ViewGroup {
@@ -63,11 +63,11 @@ public class VerticalSlideView extends ViewGroup {
             case MotionEvent.ACTION_DOWN:
                 mStartX = event.getX();
                 mStartY = event.getY();
-                                Log.d("xmg", "onTouchEvent: startX" + mStartX
+                                Log.d("520", "onTouchEvent: startX" + mStartX
                 +" startY:"+ mStartY);
                 //先判断一下手指是否落在滑块区域,没有就直接return false,不做后续逻辑了
                 RectF rectF = new RectF(0, mSumDY, mChildWidth, mSumDY+mChildHeight);
-                Log.d("xmg", "onTouchEvent: left" + 0
+                Log.d("520", "onTouchEvent: left" + 0
                         +" right:"+ mChildWidth
                 +" top: "+mSumDY
                 +" bottom: "+(mSumDY+mChildHeight));
@@ -87,7 +87,7 @@ public class VerticalSlideView extends ViewGroup {
                 float dx = stopX - mStartX;
                 float dy = stopY - mStartY;
                 mSumDY+=dy;
-                Log.d("xmg", "onTouchEvent: mSumDY" +mSumDY);
+                Log.d("520", "onTouchEvent: mSumDY" +mSumDY);
                 //因为触摸移动会反复的走进来,相当于绘制多段线条,起点和终点不断会变化
                 //startX 作为起点的话,需要将先前那一段的终点的值赋给startX作为新起点
                 mStartX = stopX;
@@ -102,7 +102,7 @@ public class VerticalSlideView extends ViewGroup {
                 break;
         }
         boolean b = super.onTouchEvent(event);
-//        Log.d("xmg", "onTouchEvent: super " + b);
+//        Log.d("520", "onTouchEvent: super " + b);
         return true;
     }
 

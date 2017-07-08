@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.View;
 
 /**
- * Created by xmg on 2016/12/29.
+ * Created by 520 on 2016/12/29.
  */
 
 public class MyView extends View {
@@ -24,7 +24,7 @@ public class MyView extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 //        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        Log.d("xmg", "onMeasure: widthMeasureSpec " +widthMeasureSpec
+        Log.d("520", "onMeasure: widthMeasureSpec " +widthMeasureSpec
         +" heightMeasureSpec: "+heightMeasureSpec);
 
         //mode   size
@@ -36,7 +36,7 @@ public class MyView extends View {
         //UNSPECIFIED 0        子控件的尺寸不受任何限制
         //AT_MOST   大的负数    wrap_content    尺寸会有一个最大的上限
         //EXACTLY   大的正数    200dp   或者父控件大小能确定时,使用了MatchParent
-        Log.d("xmg", "onMeasure: modeW " +modeW
+        Log.d("520", "onMeasure: modeW " +modeW
                 +" sizeW: "+sizeW+" modeH:"+modeH+" sizeH:"+sizeH);
 
         //手动指定控件大小

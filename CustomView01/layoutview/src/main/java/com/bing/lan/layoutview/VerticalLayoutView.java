@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by xmg on 2016/12/29.
+ * Created by 520 on 2016/12/29.
  */
 
 public class VerticalLayoutView extends ViewGroup {
@@ -62,7 +62,7 @@ public class VerticalLayoutView extends ViewGroup {
 //            int width = childAt.getWidth();
             int height = childAt.getMeasuredHeight();
             sum += height;
-            Log.d("xmg", "height: " + height);
+            Log.d("520", "height: " + height);
         }
         return sum;
     }
@@ -75,7 +75,7 @@ public class VerticalLayoutView extends ViewGroup {
             View childAt = getChildAt(i);
 //            int width = childAt.getWidth();
             int width = childAt.getMeasuredWidth();
-//            Log.d("xmg", "getChildMaxWidth: " + width);
+//            Log.d("520", "getChildMaxWidth: " + width);
             if (max < width) {
                 max = width;
             }
